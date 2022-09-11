@@ -10,3 +10,8 @@
  *
  * 5. Результат вызовов функции выведите в консоль
  */
+let city = function (name) {
+  return `Hello, ${name}`;
+}
+console.log(city("Lviv"));
+console.log(city("Kyiv")); 
