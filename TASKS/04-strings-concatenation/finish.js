@@ -10,3 +10,8 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+const name = "Dada";
+const surname = "LV";
+const profession = "Frontend developer";
+const total = `${name} ${surname} is ${profession}`;
+console.log(total);
