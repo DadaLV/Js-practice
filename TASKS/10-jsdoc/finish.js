@@ -13,8 +13,15 @@
  * 4. Вызовите функцию
  */
 /*this function returns difference of two numbers*/
+/**
+ * returns the difference of two numbers
+ * @param {number} a 
+ * @param {number} b 
+ * @returns {number} the difference of two numbers
+ */
 function diff(a, b) {
   return a - b;
 }
 
 console.log(diff(15, 16));
+
