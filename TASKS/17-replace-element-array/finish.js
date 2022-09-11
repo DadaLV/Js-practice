@@ -8,3 +8,7 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+const myArray = [false, "task", 18, undefined];
+console.log(myArray);
+myArray[1] = "new";
+console.log(myArray);
