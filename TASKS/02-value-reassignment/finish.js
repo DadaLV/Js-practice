@@ -1,3 +1,7 @@
+let isStudent;
+isStudent = true;
+console.log(isStudent);
+
 /** ЗАДАЧА 2 - Присваивание нового значения переменной
  *
  * 1. Объявите переменную "isStudent" без присваивания значения
