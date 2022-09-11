@@ -7,3 +7,8 @@
  *
  * 3. Создайте многострочный комментарий
  */
+// just comment
+let a; // that is start
+
+/* the task 
+is solved*/
