@@ -4,3 +4,6 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+let a = "You are my hero";
+console.log(a.length);
