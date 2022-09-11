@@ -12,3 +12,9 @@
  *
  * 4. Вызовите функцию
  */
+/*this function returns difference of two numbers*/
+function diff(a, b) {
+  return a - b;
+}
+
+console.log(diff(15, 16));
