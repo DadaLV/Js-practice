@@ -8,7 +8,7 @@
 
 let myVariable1 = 10
 let myVariable2 = '5'
-
+console.log(typeof (+myVariable2));
 if (+ myVariable1 <= + myVariable2) {
   console.log("true");
 } else {
