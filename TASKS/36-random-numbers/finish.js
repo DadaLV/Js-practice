@@ -6,7 +6,6 @@
  * 2. Убедитесь, что это новое случайное число не совпадает ни с одним из чисел в массиве myNumbers.
  *
  * 3. Если совпадает, вам нужно сгенерировать новое 4-значное число.
- *
  * 4. Если совпадений нет (новый номер уникален), добавьте его в массив myNumbers.
  *
  * ВАЖНО: В решении задачи используйте функции:
@@ -18,3 +17,30 @@ const MIN = 1000
 const MAX = 9999
 
 const myNumbers = [2355, 7235, 8135, 1762, 2361, 8351]
+
+const randomNumber = (MIN, MAX) => {
+  return Math.floor(Math.random() * (MAX- MIN+1) + MIN)
+}
+
+const addNumber = (newArray, MIN, MAX) => {
+  let newRandom = randomNumber(MIN, MAX);
+  const updatedArray = [...newArray];
+  // if (updatedArray.includes(newRandom)) {
+  //   return updatedArray;
+    
+  // } else {
+  //   updatedArray.push(newRandom);
+  //   return updatedArray;
+    
+  // }
+  do {
+    newRandom = randomNumber(MIN, MAX)
+    
+  } while (updatedArray.includes(newRandom))
+
+  updatedArray.push(newRandom);
+
+  return updatedArray;
+}
+  const updated = addNumber(myNumbers, MIN, MAX)
+  console.log(updated)
